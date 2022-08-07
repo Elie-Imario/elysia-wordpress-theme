@@ -1,0 +1,98 @@
+/*-----------------------------------*\
+  #variable.css
+\*-----------------------------------*/
+
+/**
+ *
+ */
+
+
+
+
+
+/*-----------------------------------*\
+  #VARIABLE
+\*-----------------------------------*/
+
+:root {
+
+  /**
+   * colors 
+   */
+
+  --red-orange-color-wheel: hsl(333, 100%, 55%);
+  --ultramarine-blue: hsl(217, 100%, 50%);
+  --lavender-blue: hsl(229, 50%, 91%);
+  --oxford-blue: radial-gradient(186.14% 194.55% at 71.64% 160.48%, #A1B1F7 0%, rgba(240, 242, 250, 0.421063) 53.39%, rgba(242, 243, 247, 0) 92.21%);
+  --light-gray: hsl(0, 0%, 80%);
+  --sonic-silver: hsl(0, 0%, 47%);
+  --blue-crayola: hsl(216, 98%, 52%);
+  --cultured: hsl(228, 26%, 96%);
+  --white: hsl(0, 0%, 100%);
+  --rich-black-fogra-29: hsl(240, 13%, 8%);
+  --silver-chalice: hsl(0, 0%, 70%);
+  --floral-white: hsl(38, 100%, 98%);
+  --raisin-black: hsl(240, 8%, 18%);
+  --sonic-silver: hsl(240, 3%, 45%);
+  --mango-tango: hsl(20, 100%, 64%);
+  --orange-web: hsl(39, 100%, 50%);
+  --cultured: hsl(210, 17%, 98%);
+  --mantis: hsl(118, 41%, 62%);
+  --gambog: hsl(39, 100%, 45%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --onyx: hsl(0, 0%, 23%);
+
+  --gradient: linear-gradient(90deg, hsl(38, 100%, 98%) 21.32%, hsl(144, 45%, 98%) 130%);
+
+  /**
+   * typography
+   */
+
+  --ff-poppins: 'Poppins', sans-serif;
+  --ff-rubik: 'Rubik', sans-serif;
+  --dm-sans: 'DM Sans', sans-serif;
+
+  /**
+   * transition
+   */
+
+  --transition: 0.2s ease-in-out;
+
+  /**
+   * spacing
+   */
+
+  --section-padding: 80px;
+
+  /**
+   * typography 
+   */
+
+  --fs-1: 30px;
+  --fs-2: 35px;
+  --fs-3: 30px;
+  --fs-4: 22px;
+  --fs-5: 20px;
+  --fs-6: 15px;
+
+  --fw-5: 500;
+  --fw-6: 600;
+  --fw-7: 700;
+  --fw-8: 800;
+  --fw-9: 900;
+
+  /**
+   * spacing 
+   */
+
+  --px: 15px;
+  --py: 80px;
+
+  /**
+   * others 
+   */
+
+  --default-transition: 0.25s ease;
+
+}
