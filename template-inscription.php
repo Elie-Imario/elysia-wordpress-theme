@@ -1,50 +1,11 @@
-<?php get_header(); ?>
+<?php 
+/*
+ * Template Name: Inscripition
+ */
+get_header(); 
+?>
 
-<body>
-
-    <!--
-      - #HEADER
-    -->
-
-    <header class="header" data-header>
-      <div class="container">
-        <div class="navbar-brand">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Educator Logo">
-        </div>        
-
-        <div class="header-actions">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="index.html">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a href="vie_scolaire.html">Vie Scolaire</a>
-            </li>
-            <li class="nav-item">
-              <a href="inscription.html">Inscription</a>
-            </li>
-            <li class="nav-item">
-              <a href="actualite.html">Actualité</a>
-            </li>
-            <li class="nav-item">
-              <a href="formulaire.html">Formulaire</a>
-            </li>
-            <li class="nav-item">
-              <a href="temoignages.html">Témoignages </a> 
-            </li>
-          </ul>
-        </div>
-
-        <button class="nav-toggle-btn">
-          <span class="one"></span>
-          <span class="two"></span>
-          <span class="three"></span>
-        </button>
-      </div>
-    </header>
-
-    
-    <div class="container">
+<div class="container">
       <main>
         <!--
           - #ABOUT SECTION
@@ -106,5 +67,3 @@
 
       </main>
     </div>
-
-<?php get_footer(); ?>
